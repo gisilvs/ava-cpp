@@ -1,0 +1,24 @@
+{
+  "duration": 6.0,
+  "sample_rate": 44100,
+  "channels": 256,
+  "frames": 66,
+  "effective_frames": 65,
+  "text_length": 256,
+  "steps": 8,
+  "cfg_scale": 1.0,
+  "schedule": [
+    1.0,
+    0.9202618598937988,
+    0.8318243622779846,
+    0.7331817150115967,
+    0.6224592924118042,
+    0.4972936511039734,
+    0.3546612858772278,
+    0.19063186645507812,
+    0.0
+  ],
+  "sampler": "rf_denoiser_pingpong",
+  "checkpoint_sha256": "ed9cf1b6172f1a8c2921a9560c21109ff3239524563ced9dce6dcdef41e2f515",
+  "config_sha256": "a8aa5d45ae3d6524d3cd4e85e0d6e7d8d401267e7c6f28214bca8aae7b77bdeb"
+}

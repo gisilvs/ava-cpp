@@ -1,0 +1,40 @@
+{
+  "file": "text_audio.pt",
+  "sha256": "8432364c859c227d46633f4cedacd84ef960562deecf8fcde4cd8e873204f40c",
+  "epoch": 197,
+  "weights": "ema",
+  "control_mapping": "synth_v1",
+  "latent_normalization": "none",
+  "feature_shape": [
+    256,
+    66
+  ],
+  "parameters": [
+    "gain",
+    "mix",
+    "attack",
+    "decay",
+    "sustain",
+    "release",
+    "cutoff_octaves",
+    "q",
+    "lfo_rate",
+    "lfo_depth",
+    "detune_cents",
+    "noise_mix",
+    "drive"
+  ],
+  "network": {
+    "width": 128,
+    "heads": 4,
+    "layers": 3,
+    "feedforward": 256,
+    "dropout": 0.1
+  },
+  "validation": {
+    "loss": 1.8885418558120728,
+    "audio_mse": 0.009009195446968078
+  },
+  "checkpoint_repository": "https://github.com/gisilvs/ava-torch/tree/main/weights",
+  "onnx_sha256": "bf5c235cf8bec6462f304f5349a0f91cee678914cd828117df178cb6c88aed33"
+}

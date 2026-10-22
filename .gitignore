@@ -1,0 +1,11 @@
+build/
+JUCE/
+cmake-build-*/
+.idea/
+.vscode/
+.DS_Store
+__pycache__/
+# The small mapper is tracked; large upstream generator exports are not.
+models/generator/*.onnx
+models/generator/*.weights
+models/generator/tokenizer*

@@ -1,0 +1,30 @@
+{
+  "format": "ava-latent-mapper",
+  "version": 1,
+  "control_mapping": "synth_v1",
+  "feature_shape": [
+    256,
+    66
+  ],
+  "controls": [
+    "gain",
+    "mix",
+    "attack",
+    "decay",
+    "sustain",
+    "release",
+    "cutoff_octaves",
+    "q",
+    "lfo_rate",
+    "lfo_depth",
+    "detune_cents",
+    "noise_mix",
+    "drive"
+  ],
+  "normalization": "none",
+  "onnx_sha256": "bf5c235cf8bec6462f304f5349a0f91cee678914cd828117df178cb6c88aed33",
+  "encoder": {
+    "checkpoint_sha256": "ed9cf1b6172f1a8c2921a9560c21109ff3239524563ced9dce6dcdef41e2f515",
+    "config_sha256": "a8aa5d45ae3d6524d3cd4e85e0d6e7d8d401267e7c6f28214bca8aae7b77bdeb"
+  }
+}

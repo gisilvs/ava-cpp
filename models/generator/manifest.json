@@ -1,0 +1,14 @@
+{
+  "format": "ava-native-generator",
+  "version": 1,
+  "model": "stable-audio-3-small-sfx",
+  "precision": "INT8 linear weights; FP32 remaining operations",
+  "files": {
+    "text_encoder.onnx": "2d0b9773f81fc41ed99e4a8fbd225cbf8c27fbe7655379d290d078985c01a4dd",
+    "text_encoder.weights": "e46149aa578f7f481ad2a293491a14524da59a677790f97f1760792240479732",
+    "denoiser.onnx": "2c287e1aab5fea89eaaff29680138ce7b03cebade310db7a983eceebd38611ce",
+    "denoiser.weights": "0708fab072eaf322fcbcfc6256dc502942149047e73f0bb03d6b13e461edb3e5",
+    "tokenizer.bin": "515ce0777161d1b7dd72aad98306c484a2db23ed7d0e8be5d020acadf55730b4",
+    "sampler.json": "c6b1129c30ea5b7a75a8976460b97c7b0dda67e2d43536d0e9954ea959187c91"
+  }
+}
