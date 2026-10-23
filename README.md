@@ -127,8 +127,7 @@ redistributing a package containing the generator.
 
 ## License
 
-The C++ source is licensed under [AGPL-3.0-only](LICENSE), copyright 2024–2026
-Gianluigi Silvestri, using JUCE's open-source licensing option. Distributed plugin
+The C++ source is licensed under [AGPL-3.0-only](LICENSE), using JUCE's open-source licensing option. Distributed plugin
 builds must comply with the AGPL, including corresponding-source requirements.
 The mapper weights have [separate model terms](models/mapper/LICENSE.md).
 

@@ -2,7 +2,6 @@
 
 Ava's original C++ source is licensed under AGPL-3.0-only. Dependencies and model
 assets retain their own terms and are not relicensed by Ava's source-code license.
-Copyright (c) 2024–2026 Gianluigi Silvestri.
 
 ## JUCE
 
