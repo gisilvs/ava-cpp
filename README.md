@@ -124,3 +124,15 @@ encoder have separate terms; see
 and the [Gemma terms](https://ai.google.dev/gemma/terms). Obtain the model through
 its official Hugging Face repository before exporting. Check those terms before
 redistributing a package containing the generator.
+
+## License
+
+The C++ source is licensed under [AGPL-3.0-only](LICENSE), copyright 2024–2026
+Gianluigi Silvestri, using JUCE's open-source licensing option. Distributed plugin
+builds must comply with the AGPL, including corresponding-source requirements.
+The mapper weights have [separate model terms](models/mapper/LICENSE.md).
+
+**Powered by Stability AI.** Stable Audio, SAME-S and T5Gemma retain their upstream
+terms; the source-code license does not relicense model weights. See
+[third-party notices](THIRD_PARTY_NOTICES.md). The build and installation scripts
+preserve the accompanying license texts and notices.

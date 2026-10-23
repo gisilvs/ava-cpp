@@ -19,6 +19,9 @@ for name in "${files[@]}"; do
   # APFS clones share disk blocks with the local export. Copy normally elsewhere.
   cp -c "$source_dir/$name" "$staging/$name" 2>/dev/null || cp "$source_dir/$name" "$staging/$name"
 done
+cp licenses/STABILITY_AI_COMMUNITY_LICENSE.md "$staging/LICENSE_STABILITY.md"
+cp licenses/GEMMA_TERMS.md "$staging/LICENSE_GEMMA.md"
+cp models/generator/NOTICE "$staging/NOTICE"
 (cd "$staging" && shasum -a 256 -c checksums.txt)
 if [[ -d "$destination" ]]; then
   backup="build/native-generator-backups/$(date +%Y%m%d_%H%M%S)_$$"

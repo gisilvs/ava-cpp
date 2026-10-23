@@ -20,8 +20,13 @@ mkdir "$output/models"
 for name in text_encoder.onnx text_encoder.weights denoiser.onnx denoiser.weights tokenizer.bin sampler.json manifest.json checksums.txt; do
   cp -c "$assets/$name" "$output/models/$name" 2>/dev/null || cp "$assets/$name" "$output/models/$name"
 done
+cp licenses/STABILITY_AI_COMMUNITY_LICENSE.md "$output/models/LICENSE_STABILITY.md"
+cp licenses/GEMMA_TERMS.md "$output/models/LICENSE_GEMMA.md"
+cp models/generator/NOTICE "$output/models/NOTICE"
+cp LICENSE NOTICE THIRD_PARTY_NOTICES.md "$output/"
+cp -R licenses "$output/licenses"
 cp scripts/install_macos.sh "$output/install.sh"
-cp docs/macos_package.md "$output/README.md"
+cp README.md "$output/README.md"
 cp -R examples "$output/presets"
 git rev-parse HEAD > "$output/source-commit.txt"
 # Include local edits: the checkout need not be committed to package a test build.
